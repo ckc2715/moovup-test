@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+body {
+  font-family: SFNSText, Helvetica Neue, sans-serif;
+  min-height: 100%;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.2;
+  background-color: #fff;
+}
+
+.split-view-wrapper {
+  display: flex;
+  height: calc(100% - 45px);
+}

@@ -1,0 +1,9 @@
+.split-line-vertical {
+    display: inline-block;
+    cursor: ew-resize;
+    width: 1px;
+    /* height: 100%; */
+    z-index: 1;
+    position: relative;
+    background: #b6b6b6;
+}

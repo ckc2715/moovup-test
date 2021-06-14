@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    height: 45px;
+    background: hsla(0,0%,100%,.98);
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(247,136,0,.6);
+}
+
+.app-name {
+    box-sizing: border-box;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 21px;
+    height: 100%;
+}
+
+.display-name {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    height: 100%;
+}
+
+.company-name {
+    font-weight: 400
+}
+
+.service-name {
+    color: #f78800;
+    margin-left: 5px;
+}

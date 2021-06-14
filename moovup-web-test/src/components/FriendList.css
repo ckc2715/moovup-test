@@ -1,0 +1,19 @@
+.friend-list-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  background-color: hsla(48, 45%, 98%, 0.96);
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 950px) {
+  .friend-list-wrapper {
+    width: 250px;
+  }
+}
+
+.friend-list {
+  display: block;
+  position: absolute;
+  width: 100%;
+}

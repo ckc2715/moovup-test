@@ -1,0 +1,33 @@
+.friend-list-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 4px 0px 4px 26px;
+  cursor: default;
+}
+
+.friend-image-background {
+  width: 42px;
+  height: 42px;
+}
+
+.friend-image {
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.friend-name {
+    margin-left: 1rem;
+    font-size: 19px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    /* border-bottom: 1px solid #6666;
+    line-height: 3.0; */
+    width: 100%;
+}
